@@ -13,6 +13,8 @@ while True:
     if guess == number:
         print("Congratulations! You guessed the right number.")
         break
+    elif guess < number:
+        print("Sorry, your guess is too low..")
     else:
-        print("Sorry that is incorrect..")
+        print("Sorry, your guess is too high..")
 
